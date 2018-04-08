@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 /* Body */
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -149,10 +149,10 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,213,225,1.00) 87.56%,rgba(45,154,183,1.00) 100%);
-	background-image: url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,213,225,1.00) 87.56%,rgba(45,154,183,1.00) 100%);
-	background-image: url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,213,225,1.00) 87.56%,rgba(45,154,183,1.00) 100%);
-	background-image: url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,213,225,1.00) 87.56%,rgba(45,154,183,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/%5BHorribleSubs%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo!%20-%2006%20%5B1080p%5D.mkv_snapshot_19.15_%5B2018.01.09_00.28.23%5D.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: 1530px 710px;
