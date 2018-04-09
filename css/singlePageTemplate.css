@@ -161,10 +161,10 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
   background-color: #2D9AB7;
-  background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);
-  background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);
-  background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);
-  background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);height: 800px;
+  background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(images/designShowcase.png);
+  background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(images/designShowcase.png);
+  background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(images/designShowcase.png);
+  background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(images/designShowcase.png);height: 800px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
