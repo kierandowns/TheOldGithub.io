@@ -1,8 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
-MailMe {
-mailto:kdowns@ualberta.ca;
-}
+
 /* Body */
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -35,7 +33,7 @@ header {
 	text-align: center;
 	width: 10%;
 	float: left;
-	margin-top: 15px;
+	margin-top: 0px;
 	margin-left: 25px;
 	letter-spacing: 4px;
 }
@@ -83,7 +81,7 @@ ul li:hover a {
 }
 .light {
 	font-weight: bold;
-	color: #717070;
+	color: #1F2421;
 }
 .tagline {
 	text-align: center;
@@ -150,7 +148,7 @@ ul li:hover a {
 	margin-right: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
-	color: #52BAD5;
+	color: #2D8F91;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
@@ -231,7 +229,7 @@ footer .footer_column p {
 	border: none;
 	padding: 15px 20px;
 	text-shadow: none;
-	background-color: #8292EA; 
+	background-color: #8292EA;
 	font-size: 20px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.25), inset 0 -4px 0 rgba(0,0,0,0.2);
 }
@@ -273,12 +271,13 @@ footer .footer_column p {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
+/* Pattern is Made by Arnaldo, https://www.toptal.com/designers/subtlepatterns/vertical-waves/ */
 .footer_banner {
 	background-color: #B3B3B3;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
-	background-image: url(../images/pattern.png);
+	background-image: url(../images/vertical-waves.png);
 	background-repeat: repeat;
 }
 footer {
@@ -358,6 +357,39 @@ nav ul li {
 	float: none;
 	text-align: center;
 }
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
 .banner {
 	background-color: #2D9AB7;
 	background-image: none;
@@ -369,7 +401,7 @@ nav ul li {
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
-	line-height: 22px;
+	line-height: 30px;
 	text-align: center;
 }
 }
