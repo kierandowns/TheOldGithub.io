@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+@import url('../fonts/SocialCircles.otf');
+
+
+
 
 /* Body */
 body {
@@ -317,6 +321,13 @@ footer .footer_column p {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.25), inset 0 -4px 0 rgba(0,0,0,0.2);
 }
 
+.buttonSetup{
+	padding-top: 40px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
 .button {
 	width: 200px;
 	margin-top: 40px;
@@ -327,8 +338,7 @@ footer .footer_column p {
 	padding-right: 10px;
 	padding-bottom: 20px;
 	padding-left: 10px;
-	text-align: center;
-	vertical-align: middle;
+
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -374,18 +384,57 @@ footer {
 /* Fun icons styles */
 
 .github {
-    background-color: #4CAF50;
+		font-family: 'Social Circles';
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 0px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 50px;
     margin: center;
     cursor: pointer;
-}
+		border-radius: 0px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+		border: 3px solid #FFFFFF;
+		color: #FFFFFF;
+		transition: all 0.3s linear;
+	}
 
+	.github:hover {
+		background-color: #FEFEFE;
+		color: #C4C4C4;
+		cursor: pointer;
+	}
+
+
+	.linkedIn {
+			font-family: 'Social Circles';
+	    border: none;
+	    color: white;
+	    padding: 0px 10px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 50px;
+	    margin: center;
+	    cursor: pointer;
+			border-radius: 0px;
+			text-transform: uppercase;
+			font-weight: bold;
+			letter-spacing: 2px;
+			border: 3px solid #FFFFFF;
+			color: #FFFFFF;
+			transition: all 0.3s linear;
+		}
+
+		.linkedIn:hover {
+			background-color: #FEFEFE;
+			color: #C4C4C4;
+			cursor: pointer;
+		}
 /* Mobile */
 @media (max-width: 320px) {
 .logo {
