@@ -685,3 +685,29 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+
+
+/* Design Style time */
+
+.containerLarge {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+
+.portImag {
+	padding-top: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.portImageDesc {
+	padding-top: 30px;
+	text-align: center;
+
+
+}
