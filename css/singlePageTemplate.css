@@ -697,6 +697,14 @@ nav ul li {
 	background-color: #FFFFFF;
 }
 
+.containerSmall {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 750px;
+	background-color: #FFFFFF;
+}
+
 .portImag {
 	padding-top: 100px;
 	display: block;
