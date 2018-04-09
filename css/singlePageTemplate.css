@@ -739,6 +739,7 @@ nav ul li {
 
 /* Games Style for WebGL */
 
-.webGLobject {
+.SpacerForGame{
 
+	height: 800px;
 }
