@@ -77,7 +77,7 @@ ul li:hover a {
 .hero {
 	background-color: #9CC5A1;
 	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 }
 .light {
 	font-weight: bold;
@@ -115,7 +115,8 @@ ul li:hover a {
 .about {
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-top: 35px;
+	padding-top: 50px;
+  padding-bottom: 150px;
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
@@ -159,14 +160,13 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/placeholder.jpg);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/placeholder.jpg);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/placeholder.jpg);
-	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../images/placeholder.jpg);
-	height: 800px;
+  background-color: #2D9AB7;
+  background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);
+  background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);
+  background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);
+  background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(167,213,225,0.28) 87.56%,rgba(45,154,183,0.64) 100%,rgba(45,154,183,1.00) 100%), url(../../HandMadeAttempt/images/designShowcase.png);height: 800px;
 	background-attachment: fixed;
-	background-size: auto auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .parallax {
@@ -190,6 +190,88 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+
+
+.button2 {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #2D9AB7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:before {
+  content: '\00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-left: 25px;
+}
+
+.button2:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+
+.button3 {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #2D9AB7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:before {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 25px;
+}
+
+.button3:hover span:before {
+  opacity: 1;
+  right: 0;
+}
+
 /* More info */
 footer {
 	background-color: #FFFFFF;
@@ -285,6 +367,22 @@ footer {
 }
 .hidden {
 	display: none;
+}
+
+
+/* Fun icons styles */
+
+.github {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: center;
+    cursor: pointer;
 }
 
 /* Mobile */
