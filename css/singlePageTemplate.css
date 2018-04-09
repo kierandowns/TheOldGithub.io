@@ -91,9 +91,9 @@ ul li:hover a {
 	text-align: center;
 	color: #FFFFFF;
 	margin-top: 4px;
-	font-weight: lighter;
+	font-weight: 300;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 
